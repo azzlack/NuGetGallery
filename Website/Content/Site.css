@@ -4,7 +4,7 @@ Background: #fff
 Borders: #ccc
 Text: #666
 Main Accent: #39922C
-Links: #0071BC
+Links: #2382C3
 *************************************************************/
 
 
@@ -59,7 +59,7 @@ p           { margin: 0 0 1em; line-height: 1.538em; }
 p img.left  { float: left; margin: 0.923em 0.923em 0.923em 0; padding: 0; }
 p img.right { float: right; margin: 0.923em 0 0.923em 0.923em; }
 
-a           { color:#0071bc; text-decoration: none; outline: none; }
+a           { color:#2382C3; text-decoration: none; outline: none; }
 a:hover     { text-decoration: underline; }
 a img       { border: none; }
 
@@ -111,9 +111,9 @@ nav, section { display: block; }
 
 .prerelease-message,
 .not-latest-message {
-    border-radius: 0 0 5px 5px;
+    /*border-radius: 0 0 5px 5px;
     -moz-border-radius:  0 0 5px 5px;
-    -webkit-border-radius:  0 0 5px 5px;
+    -webkit-border-radius:  0 0 5px 5px;*/
     border: 1px solid;
     border-top: none;
     font-size: 1.5em;
@@ -158,10 +158,8 @@ header.main {
             }
 
                 nav.main ul li.current a {
-                    background-color: #e4f1f7;
-                    border: 1px solid #ebf2f5;
+                    background-color: #EAF6F4;
                     border-top: 1px solid #fff;
-                    border-bottom: none;
                     color: #195670;
                     height: 46px;
                     line-height: 44px;
@@ -181,9 +179,9 @@ header.main {
                     text-decoration: none;
             
                     /*CSS3 properties*/
-                    border-radius: 4px 4px 0 0;
+                    /*border-radius: 4px 4px 0 0;
                     -moz-border-radius: 4px 4px 0 0;
-                    -webkit-border-radius: 4px 4px 0 0;
+                    -webkit-border-radius: 4px 4px 0 0;*/
                 }
 
                 nav.main ul a:hover {
@@ -203,9 +201,9 @@ header.main {
             vertical-align: top;
             
             /*CSS3 properties*/
-            border-radius: 4px;
+            /*border-radius: 4px;
             -moz-border-radius: 4px;
-            -webkit-border-radius: 4px;
+            -webkit-border-radius: 4px;*/
         }
 
             #searchBoxInput {
@@ -249,9 +247,9 @@ header.main {
             width: 300px;
             
             /*CSS3 properties*/
-            border-radius: 4px;
+            /*border-radius: 4px;
             -moz-border-radius: 4px;
-            -webkit-border-radius: 4px;
+            -webkit-border-radius: 4px;*/
         }
 
             #pageSearchBox #searchBoxInput {
@@ -503,15 +501,13 @@ header.main {
     
         .sequence li.past,
         .sequence li.current {
-            background-color: #4585aa;
-            background-image: -ms-linear-gradient(top, #4585aa 0%, #376783 100%);
+            background-color: rgb(234, 246, 244);
+            /*background-image: -ms-linear-gradient(top, #4585aa 0%, #376783 100%);
             background-image: -o-linear-gradient(top, #4585aa 0%, #376783 100%);
             background-image: -webkit-linear-gradient(top, #4585aa 0%, #376783 100%);
-            background-image: linear-gradient(top, #4585aa 0%, #376783 100%);
+            background-image: linear-gradient(top, #4585aa 0%, #376783 100%);*/
             border-color: #376783;
             color: #fff;
-            
-            
         }
         
         .sequence li.current {
@@ -1019,10 +1015,10 @@ header.main {
     clear: both;
 }
 #layout-footer {
-    background:#e4f1f7;
+    background:#EAF6F4;
     color: #3e483c;
     clear: both;
-    border-top: 1px solid #d3e7fe;   
+    border-top: 1px solid #8FBFB6;   
     padding-top: 0px;
     padding-bottom: 0px;
     position: relative;
@@ -1050,7 +1046,7 @@ header.main {
         }
         
         footer#footer p#releaseTag a:hover {
-            color: #0071bc;
+            color: #2382C3;
             text-decoration: underline;
         }
     
