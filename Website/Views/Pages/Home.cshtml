@@ -1,36 +1,10 @@
 ﻿@{
     ViewBag.Tab = "Home";
 }
-<section class="featured">
-    <div>
-        <h1>Jump Start Your Projects with NuGet</h1>
-        <p >NuGet is a Visual Studio extension that makes it easy to install and update third-party libraries and tools in Visual Studio.</p>
-        <p class="sub"><em>So <a href="http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c">install NuGet</a> and get a jump on your next project!</em></p>
-        <a class="install" href="http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c">Install NuGet</a>
-    </div>
-    <img src="@Url.Content("~/content/images/hero.png")" alt="NuGet GUI Window" />
-</section> 
-
-<section class="release">
-     <h2>NuGet 1.8 Released</h2> 
-     <p>
-        Take 5 minutes and UPGRADE NOW using the Visual Studio Extension Manager. Why? Because there's a pile of new features and it will  
-        make your life easier! All these details and <a href="http://docs.nuget.org/docs/release-notes/nuget-1.8">more here...</a>
-     </p>
-     <p>
-        <strong>NOTE: </strong>If you encounter an error while upgrading from an older version of NuGet you will need to uninstall the 
-        older version of NuGet first (Tip: Make sure to run Visual Studio as an admin) then install NuGet 1.8. We are sorry for any 
-        inconvenience this might cause, more info can be found in the <a href="http://docs.nuget.org/docs/release-notes/nuget-1.8">release notes</a>.
-     </p>
-</section>
-
-<section class="info">
-    <h3>About</h3>
-    <p>When you use NuGet to install a package, it copies the library files to your solution and automatically updates your project 
-    (add references, change config files, etc.). If you remove a package, NuGet reverses whatever changes it made so that no clutter is left.</p>
-
-    <h3>Important Notice</h3>
-    <p>You can develop your own package and share it via the NuGet Gallery. Read the documentation for more details on 
-    <a title="Creating and submitting a package" href="http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package">how to 
-    create and publish a package</a>. If you don&rsquo;t plan on submitting a package, there&rsquo;s no need to register.</p>
-</section>
+<div class="front">
+    <h1>Nugetti - Where genuine collaboration can happen</h1>
+    <p>Nugetti is Knowit Reaktors own NuGet repository.</p> 
+    <p>NuGet is a Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects that use the .NET Framework. If you develop a library or tool that you want to share with other developers, you create a NuGet package and store the package in a NuGet repository. If you want to use a library or tool that someone else has developed, you retrieve the package from the repository and install it in your Visual Studio project or solution.</p>
+    <p>When you install the package, NuGet copies files to your solution and automatically makes whatever changes are needed, such as adding references and changing your app.config or web.config file. If you decide to remove the library, NuGet removes files and reverses whatever changes it made in your project so that no clutter is left.</p>
+    <p>Everything necessary to install a library or tool is bundled into a package (a .nupkg file). A package includes files to copy to your project and a manifest file that describes the contents of the package and what needs to be done to add or remove the library. Packages are bundled into feeds that Visual Studio accesses in order to present lists of available packages.</p>
+</div>

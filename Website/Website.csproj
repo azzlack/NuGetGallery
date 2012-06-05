@@ -687,9 +687,11 @@
   <ItemGroup>
     <Content Include="Content\Images\changePassword.png" />
     <Content Include="Content\Images\copy.png" />
+    <Content Include="Content\Images\dashed-diagonal-lines.png" />
     <Content Include="Content\Images\errorPage.png" />
     <Content Include="Content\Images\editProfile.png" />
     <Content Include="Content\Images\managePackages.png" />
+    <Content Include="Content\Images\nugetti.jpg" />
     <Content Include="Content\Images\uploadPackage.png" />
     <Content Include="Content\Images\YourPackage.png" />
     <Content Include="Content\Site.css" />
